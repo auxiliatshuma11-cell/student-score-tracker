@@ -79,4 +79,4 @@ def lowest_score():
     
 def pause():
     input("\nPress Enter to return to the main menu...")
->>>>>>> bd9e11c73db94449d2eae2e78828e553693a6780
+
