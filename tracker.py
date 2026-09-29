@@ -1,19 +1,23 @@
-<<<<<<< HEAD
-students.sort(key=lambda student: student["score"], reverse=True)
+students = {} 
 
-print("\n STUDENT LEADERBOARD")
-print("========================")
 
-for position, student in enumerate(students, start=1):
-    print(
-        position,
-        student["name"],
-        "-",
-        student["score"],
-        "- Grade:",
-        student["grade"]
-    )
-=======
+def display_welcome_message():
+    print("=" * 20)
+    print("   WELCOME TO THE STUDENT SCORE TRACKER")
+    print("=" * 20)
+
+
+def show_menu():
+    print("\n-----------LOG IN MENU -----------")
+    print("1. Add Student")
+    print("2. View Students")
+    print("3. Search Student")
+    print("4. Calculate Average")
+    print("5. Highest Score")
+    print("6. Lowest Score")
+    print("7. Exit")
+    print("-----------------------------")
+    
 def add_student():
     name = input("Enter student name: ").strip()
     if not name:
