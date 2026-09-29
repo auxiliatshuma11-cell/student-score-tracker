@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+students.sort(key=lambda student: student["score"], reverse=True)
+
+print("\n STUDENT LEADERBOARD")
+print("========================")
+
+for position, student in enumerate(students, start=1):
+    print(
+        position,
+        student["name"],
+        "-",
+        student["score"],
+        "- Grade:",
+        student["grade"]
+    )
+=======
 def add_student():
     name = input("Enter student name: ").strip()
     if not name:
@@ -59,3 +75,4 @@ def lowest_score():
     
 def pause():
     input("\nPress Enter to return to the main menu...")
+>>>>>>> bd9e11c73db94449d2eae2e78828e553693a6780
