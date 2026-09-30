@@ -79,10 +79,6 @@ def lowest_score():
     
 def pause():
     input("\nPress Enter to return to the main menu...")
->>>>>>> bd9e11
-def pause():
-    input("\nPress Enter to return to the main menu...")
-
 
 def main():
     display_welcome_message()
